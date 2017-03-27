@@ -11,8 +11,6 @@ public class EurekaClientApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		String a[] = new String[]{"1aa", "da", "daf"};
-		Object o = new Object[]{};
 	}
 
 }

@@ -1,1 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.gradle/
+.gradletasknamecache
+.idea/
+gradle-app.setting
+server_cluster/build
+client_test/build
