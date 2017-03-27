@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 1112
+
+eureka:
+  instance:
+    hostname: runghall.local
+  client:
+    serviceUrl:
+      defaultZone: http://huarh:runghall@localhost:1111/eureka/,http://huarh:runghall@runghall.localhost:1113/eureka/
+    fetch-registry: false
+
+security:
+  user:
+    name: huarh
+    password: runghall

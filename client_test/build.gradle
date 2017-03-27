@@ -1,0 +1,17 @@
+description = "test client"
+
+configurations {
+    providedCompile
+}
+
+sourceSets {
+    main.compileClasspath += configurations.providedCompile
+}
+
+jar {
+    baseName 'client_test'
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}

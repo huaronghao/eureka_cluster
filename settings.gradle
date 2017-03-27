@@ -1,0 +1,3 @@
+rootProject.name = 'eureka_cluster'
+include 'server_cluster', 'client_test'
+

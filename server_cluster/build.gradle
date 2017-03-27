@@ -1,0 +1,7 @@
+archivesBaseName='server_cluster'
+
+description = 'eureka server cluster'
+
+jar {
+    baseName 'server_cluster'
+}
